@@ -1,4 +1,4 @@
-      ******************************************************************
+           ******************************************************************
       * Author: 
       * Date: 
       * Purpose:
@@ -41,9 +41,13 @@
                ACCEPT P4 
                
                COMPUTE MEDIA = (P1 + P2 + P3 + P4) / 4.
-               MOVE MEDIA   TO MASCARA.
-               DISPLAY "A MEDIA EH".
-               DISPLAY MASCARA.
+               MOVE MEDIA TO MASCARA.
+               DISPLAY "A MEDIA EH... ><" MASCARA.
+               
+               IF MEDIA >= 6
+                   DISPLAY "ALUNO APROVADO :)"
+               ELSE
+                   DISPLAY "ALUNO REPROVADO :(".
+               
                STOP RUN.
            END PROGRAM CALCULAR-MEDIA.
-           
