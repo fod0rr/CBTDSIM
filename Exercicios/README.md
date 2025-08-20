@@ -21,5 +21,6 @@ Este é um programa simples em **COBOL** que calcula a média aritmética de 4 n
 ---
 
 ## 📂 Estrutura do Código
-O código principal está no arquivo:
+O código principal está no arquivo: [MEDIA.cbl](https://github.com/fod0rr/CBTDSIM/blob/main/Exercicios/MEDIA.cbl)
+
 
